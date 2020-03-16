@@ -1,0 +1,33 @@
+{
+  "name": "solidcolorchecker",
+  "version": "1.0.0",
+  "description": "Check if it is a solid color image",
+  "main": "./build/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "tslint": "^6.1.0",
+    "typescript": "^3.8.3",
+    "uglify-js": "^3.8.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riotkkwok/solidColorChecker.git"
+  },
+  "keywords": [
+    "solidColor",
+    "image"
+  ],
+  "author": "Rio Kwok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/riotkkwok/solidColorChecker/issues"
+  },
+  "homepage": "https://github.com/riotkkwok/solidColorChecker#readme"
+}
